@@ -99,7 +99,7 @@ function searchRecursive(dir, ext, text, fileList) {
         }
         // else if element in list is a file
         // and file extension equals user input 
-        // the search for text inside file 
+        // then search for text inside file 
         else if (statObj.isFile() && path.extname(fileOrDir) === ('.' + ext))
         {
             //read file and save file content in variable
